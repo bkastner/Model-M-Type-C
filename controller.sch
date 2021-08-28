@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:controller-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -107,7 +106,7 @@ Connection ~ 9700 4850
 Wire Wire Line
 	9700 4850 9500 4850
 $Comp
-L MCU_Microchip_AVR:AT90USB1286-AU U2
+L controller-rescue:AT90USB1286-AU-MCU_Microchip_AVR U2
 U 1 1 5DC2549C
 P 6750 3500
 F 0 "U2" H 6750 1411 50  0000 C CNN
